@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-    src: url(Poppins-Regular.ttf);
+    src: url(Images/Poppins-Medium.ttf);
 }
 
 .above{
@@ -8,6 +8,7 @@
     text-align: center;
     background-color:black;
     color: white;
+    padding-top: 1%;
 }
 
 
@@ -52,6 +53,16 @@ a{
     text-decoration: none;
     color: black;
 }
+.first-page{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Images/firstimage.jpg");
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+
+}
+.first-page button{
+   margin-left: 43%;
+}
+
 .smoothmovingbutton {
     background-image: url(Images/firstimage.jpg);
     /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Images/firstimage.jpg"); */
@@ -61,6 +72,7 @@ a{
     outline-color: white;
 }
 #smoothmovingtext {
+
     margin-left: 700px;
     padding-top: 300px;
     font-size: 20px;
@@ -98,20 +110,33 @@ h2 {
 }
 
 .blue-rectangle {
-    
-    background-color: blue; /* Blue background color */
+    margin-left: 100px;
+    background-color: rgb(90, 152, 245); /* Blue background color */
     /* background-image: url(Images/imageonblue.jpg); */
     /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Images/imageonblue.jpg"); */
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    /* padding-bottom: 370px; */
+    /* padding-right: 100px; */
     background-size: cover;
     outline-color: white;
-
+    width: 650px;
+    height: 870px;
 
 }
+.blue-rectangle img{
+    width: 570px;
+    height: 700px;
+}
 
+#question{
+    color: white;
+    padding-left: 12%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Poppins';
 
-
+}
 .movingriaadimages {
     display: flex;
     justify-content: space-between;
@@ -177,6 +202,7 @@ img[alt="collectionofboxes"] {
     margin-top: 90px;
 }
 .logos {
+
         display: flex;
         width: 18%;
         justify-content: space-between;
@@ -200,23 +226,28 @@ h3 {
 .servicesandimage {
     display: flex;
     margin-left: 250px;
-    gap: 90px;
+    justify-content: space-between;
     font-family: 'poppins';
+    padding-right: 10%;
+    text-align: center;
+    align-items: center;
 }
 #packbox img {
     font-size: 20px;
 }
 .packing{
-   
+
     color: black;
     font-size: 20px;
 }
 
     
 #packing-icon{
-    width: 50px; /* Set width */
-    height: 50px; /* Set height */
-    background-color: yellow; /* Background color */
+    margin-left: 15%;
+    width: 80%;
+    height: 80%;
+    ; /* Set height */
+    background-color: rgb(255, 187, 0); /* Background color */
     border-radius: 50%; /* Makes it circular */
     display: flex; /* Center the icon */
     align-items: center; /* Center vertically */
@@ -229,11 +260,14 @@ h3 {
     background-color: blue;
     color: white;
     font-size: 20px;
+    padding: 3% 3%;
 }
 #store-icon{
-    width: 50px; /* Set width */
-    height: 50px; /* Set height */
-    background-color: yellow; /* Background color */
+    margin-left: 15%;
+    width: 80%;
+    height: 80%;
+    ; /* Set height */
+    background-color: rgb(255, 187, 0);
     border-radius: 50%; /* Makes it circular */
     display: flex; /* Center the icon */
     align-items: center; /* Center vertically */
@@ -246,9 +280,11 @@ h3 {
     font-size: 20px;
 }
 #transport-icon{
-    width: 50px; /* Set width */
-    height: 50px; /* Set height */
-    background-color: yellow; /* Background color */
+    margin-left: 15%;
+    width: 80%;
+    height: 80%;
+    ; /* Set height */
+    background-color: rgb(255, 187, 0);/* Background color */
     border-radius: 50%; /* Makes it circular */
     display: flex; /* Center the icon */
     align-items: center; /* Center vertically */
@@ -261,9 +297,11 @@ h3 {
     font-size: 20px;
 }
 #insurance-icon{
-    width: 50px; /* Set width */
-    height: 50px; /* Set height */
-    background-color: yellow; /* Background color */
+    margin-left: 15%;
+    width: 80%;
+    height: 80%;
+    ; /* Set height */
+    background-color: rgb(255, 187, 0);
     border-radius: 50%; /* Makes it circular */
     display: flex; /* Center the icon */
     align-items: center; /* Center vertically */
@@ -283,6 +321,12 @@ h4 {
     background-color: yellow;
     border-radius: 50%;
     font-size: 30px;
+}
+.contentOnChooseriaad{
+    font-family: 'Poppins';
+i{
+  color: white;  
+}
 }
 .clickandwatchvideo {
     margin-left: 170px;
@@ -306,9 +350,9 @@ h4 {
     
     i {
         position: absolute;
-        top: 40%;
-        left: 70%;
-        font-size: 20px;
+        top: 45%;
+        left: 55%;
+        
         transform: translate(-50%, -50%);
         padding: 30px;
         border-radius: 50%;
@@ -316,6 +360,11 @@ h4 {
         color: white;
         font-size: 30px;
         
+        
+    }
+    img{
+        width: 300px;
+        margin-right: 30px;
     }
 }
 #startverifying {
@@ -328,26 +377,36 @@ h4 {
     margin-left: 130px;
 }
 .trustedriaad {
-    margin-left: 100px;
+    margin-left: 140px;
     margin-top: 80px;
+    position: absolute;
     background-color: white;
-    height: 250px;
+    height: 200px;
     width: 330px;
     font-size: 25px;
     font-family: 'poppins';
+    text-align: center;
+    
 }
 #startverifying {
     margin-top: -20px;
 }
 .chooseleadingriaad {
-    margin-left: 500px;
+    font-size: 120%;
+    margin-left:0px;
     font-family: Poppins;
     margin-bottom: 3%;
+    margin-left: 10%;
+}
+.chooseleadingriaad h5{
+    font-family: Poppins;
+color: rgb(44, 43, 43);   
 }
 #whyriaad {
     color: orange;
-    margin-top: -9%;
-}
+   
+   
+} 
 h5 {
     font-size: 290%;
     font-family: Poppins;
@@ -355,6 +414,8 @@ h5 {
 #whydefinition {
     margin-top: -8%;
     font-family: Poppins;
+    color: gray;
+    font-family: 'poppins';
 }
 #nothesitatetobook{
     text-align: center;
@@ -382,6 +443,7 @@ h5 {
 }
 .main {
     display: flex;
+    font-family: 'Poppins';
 }
 .sub {
     position: relative;
@@ -399,9 +461,9 @@ form input {
     position: absolute;
     border: none;
     background-color: rgb(66, 66, 143);
-    padding: 12.7% 67px;
-    width: 880px;
-    height: auto;
+    padding: 12.5% 58px;
+    width: 860px;
+    height: 21.4%;
 }
 .all-moving-type {
     display: flex;
@@ -469,7 +531,6 @@ form input {
 }
 .new-update {
     display: flex;
-    margin-left: 31%;
     gap: 1.9%;
     margin-bottom: 4%;
 }
@@ -477,6 +538,13 @@ form input {
     width: 30%;
     border: none;
     background-color: rgb(252, 244, 227);
+}
+.highlighted-p{
+    margin-left: 32%;
+    color: orange;
+}
+.newsletter h2{
+    margin-left: 30%;
 }
 .new-update button {
     height: 50px;
