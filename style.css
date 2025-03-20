@@ -3,10 +3,10 @@
     src: url(Images/Poppins-Medium.ttf);
 }
 
-.above{
+.above {
     height: 65px;
     text-align: center;
-    background-color:black;
+    background-color: black;
     color: white;
     padding-top: 1%;
 }
@@ -18,28 +18,35 @@
 body {
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Poppins';
+    
 }
-.moling{
+
+.moling {
     text-align: center;
     font-family: Poppins;
     border: solid 4px black;
     background-color: black;
     color: white;
-    height: ;
+
 }
+
 .contacts {
     display: flex;
     gap: 990px;
 }
+
 .Emailadress {
     display: flex;
     margin-left: 10%;
     font-family: Poppins;
 }
+
 .Phone {
     display: flex;
     font-family: Poppins;
 }
+
 .taskbar {
     padding-left: 25%;
     padding-right: 100px;
@@ -49,28 +56,33 @@ body {
     text-decoration: none;
     color: gray;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.first-page{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Images/firstimage.jpg");
-    padding-bottom: 15%;
+
+.first-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/firstimage.jpg");
     background-repeat: no-repeat;
 
 }
-.first-page button{
-   margin-left: 43%;
+
+.first-page button {
+    margin-left: 43%;
+    margin-bottom: 12%;
+
 }
 
 .smoothmovingbutton {
     background-image: url(Images/firstimage.jpg);
-    /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Images/firstimage.jpg"); */
+
     background-repeat: no-repeat;
     padding-bottom: 100px;
     background-size: cover;
     outline-color: white;
 }
+
 #smoothmovingtext {
 
     margin-left: 700px;
@@ -78,12 +90,15 @@ a{
     font-size: 20px;
     font-family: 'poppins';
     color: white;
+    padding-bottom: ;
 }
+
 h1 {
     margin-left: 580px;
     font-size: 100px;
     color: white;
 }
+
 button {
     margin-left: 700px;
     font-size: 20px;
@@ -94,12 +109,14 @@ button {
     width: 220px;
     border-radius: 5px;
 }
+
 #learnaboutus {
     margin-top: 130px;
     margin-left: 200px;
     color: orange;
     font-family: 'poppins';
 }
+
 h2 {
     margin-left: 200px;
     font-size: 60px;
@@ -111,24 +128,23 @@ h2 {
 
 .blue-rectangle {
     margin-left: 100px;
-    background-color: rgb(90, 152, 245); /* Blue background color */
-    /* background-image: url(Images/imageonblue.jpg); */
-    /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Images/imageonblue.jpg"); */
+    background-color: rgb(90, 152, 245);
+
     background-repeat: no-repeat;
-    /* padding-bottom: 370px; */
-    /* padding-right: 100px; */
+
     background-size: cover;
     outline-color: white;
     width: 650px;
     height: 870px;
 
 }
-.blue-rectangle img{
+
+.blue-rectangle img {
     width: 570px;
     height: 700px;
 }
 
-#question{
+#question {
     color: white;
     padding-left: 12%;
     padding-top: 5%;
@@ -137,10 +153,12 @@ h2 {
     font-family: 'Poppins';
 
 }
+
 .movingriaadimages {
     display: flex;
     justify-content: space-between;
 }
+
 img[alt="couplemoving"] {
     height: 550px;
     width: 630px;
@@ -148,6 +166,7 @@ img[alt="couplemoving"] {
     margin-left: 200px;
     margin-right: 20px;
 }
+
 img[alt="collectionofboxes"] {
     display: flex;
     height: 550px;
@@ -158,11 +177,13 @@ img[alt="collectionofboxes"] {
     left: -290px;
     margin-top: 5px;
 }
+
 .image-container {
     width: 50%;
     position: relative;
     margin-left: -20px;
 }
+
 .emptyborder {
     z-index: 1;
     width: 600px;
@@ -172,57 +193,68 @@ img[alt="collectionofboxes"] {
     top: 10%;
     left: -10%;
 }
+
 .boxesandriaad2007definition {
     width: 50%;
     margin-top: 180px;
     margin-left: 100px;
 }
+
 .riaadtime2007 {
     margin-top: 30px;
 }
+
 .definition {
-    line-height:40px ;
+    line-height: 40px;
     color: rgb(136, 124, 124);
     margin-left: 55px;
     font-family: 'poppins';
 }
+
 #riaadsince {
     color: orange;
     font-family: 'poppins';
 }
+
 #riaadyear {
-   
+
     font-weight: 60px;
     font-family: 'poppins';
     font-size: 60px;
 }
+
 .riaad2007withdefinition {
     display: flex;
     gap: 40px;
     margin-top: 90px;
 }
+
 .logos {
 
-        display: flex;
-        width: 18%;
-        justify-content: space-between;
-        gap: 28%;
-        margin: 10% 11%;
-        height: 10%;
-    }
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    gap: 28%;
+    margin: 10% 11%;
+    height: 10%;
+}
+
 .serviceandwhattodo {
     margin-left: 700px;
     font-family: 'poppins';
 }
+
 #ourservices {
     color: orange;
     margin-left: 100px;
     margin-top: 50px;
 }
+
 h3 {
     font-size: 60px;
     margin-top: 30px;
 }
+
 .servicesandimage {
     display: flex;
     margin-left: 250px;
@@ -232,29 +264,31 @@ h3 {
     text-align: center;
     align-items: center;
 }
+
 #packbox img {
     font-size: 20px;
 }
-.packing{
+
+.packing {
 
     color: black;
     font-size: 20px;
 }
 
-    
-#packing-icon{
+
+#packing-icon {
     margin-left: 15%;
     width: 80%;
     height: 80%;
-    ; /* Set height */
-    background-color: rgb(255, 187, 0); /* Background color */
-    border-radius: 50%; /* Makes it circular */
-    display: flex; /* Center the icon */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+
+    background-color: rgb(255, 187, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-   
+
 
 .store {
     background-color: blue;
@@ -262,72 +296,82 @@ h3 {
     font-size: 20px;
     padding: 3% 3%;
 }
-#store-icon{
+
+#store-icon {
     margin-left: 15%;
     width: 80%;
     height: 80%;
-    ; /* Set height */
     background-color: rgb(255, 187, 0);
-    border-radius: 50%; /* Makes it circular */
-    display: flex; /* Center the icon */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
 .transport {
-    
+
     color: blaxk;
     font-size: 20px;
 }
-#transport-icon{
+
+#transport-icon {
     margin-left: 15%;
     width: 80%;
     height: 80%;
-    ; /* Set height */
-    background-color: rgb(255, 187, 0);/* Background color */
-    border-radius: 50%; /* Makes it circular */
-    display: flex; /* Center the icon */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+
+    background-color: rgb(255, 187, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
 .insurance {
-   
+
     color: black;
     font-size: 20px;
 }
-#insurance-icon{
+
+#insurance-icon {
     margin-left: 15%;
     width: 80%;
     height: 80%;
-    ; /* Set height */
+
     background-color: rgb(255, 187, 0);
-    border-radius: 50%; /* Makes it circular */
-    display: flex; /* Center the icon */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
 .clicktounderstandthevideo {
     display: flex;
     margin-left: 250px;
 }
+
 h4 {
     font-size: 45px;
     margin-top: 80px;
     font-family: 'poppins';
 }
-.chooseleadingriaad i{
+
+.chooseleadingriaad i {
     background-color: yellow;
     border-radius: 50%;
     font-size: 30px;
 }
-.contentOnChooseriaad{
+
+.contentOnChooseriaad {
     font-family: 'Poppins';
-i{
-  color: white;  
+
+    i {
+        color: white;
+    }
 }
-}
+
 .clickandwatchvideo {
     margin-left: 170px;
     display: flex;
@@ -337,45 +381,50 @@ i{
     font-size: large;
 
 }
+
 #clicktext {
     font-size: 25px;
 }
-.watchvideo{
+
+.watchvideo {
     position: relative;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+
     width: 300px;
     height: 200px;
-    
+
     i {
         position: absolute;
         top: 45%;
         left: 55%;
-        
+
         transform: translate(-50%, -50%);
         padding: 30px;
         border-radius: 50%;
         background-color: #F9A825;
         color: white;
         font-size: 30px;
-        
-        
+
+
     }
-    img{
+
+    img {
         width: 300px;
         margin-right: 30px;
     }
 }
+
 #startverifying {
     color: orange;
 }
+
 .riaadverifiedbusiness {
     display: flex;
     background-image: url(Images/ladder.webp);
     background-repeat: no-repeat;
     margin-left: 130px;
 }
+
 .trustedriaad {
     margin-left: 140px;
     margin-top: 80px;
@@ -386,78 +435,97 @@ i{
     font-size: 25px;
     font-family: 'poppins';
     text-align: center;
-    
+
 }
+
 #startverifying {
     margin-top: -20px;
 }
+
 .chooseleadingriaad {
     font-size: 120%;
-    margin-left:0px;
+    margin-left: 0px;
     font-family: Poppins;
     margin-bottom: 3%;
     margin-left: 10%;
 }
-.chooseleadingriaad h5{
+
+.chooseleadingriaad h5 {
     font-family: Poppins;
-color: rgb(44, 43, 43);   
+    color: rgb(44, 43, 43);
 }
+
 #whyriaad {
     color: orange;
-   
-   
-} 
+
+
+}
+
 h5 {
     font-size: 290%;
     font-family: Poppins;
 }
+
 #whydefinition {
     margin-top: -8%;
     font-family: Poppins;
     color: gray;
     font-family: 'poppins';
 }
-#nothesitatetobook{
+
+
+#Online-booking {
+    margin-top: 5%;
     text-align: center;
-   font-family: Poppins;
-   margin-bottom: 3%;
+    font-family: Poppins;
+    margin-bottom: 7%;
+    font-size: large;
+    color: darkgray;
 }
-#nothesitatetobook u{
+
+#Online-booking u {
     color: orange;
 }
+
 .video img {
     height: 90vh;
     width: 99%;
     display: flex;
 }
+
 .icon {
     position: relative;
     overflow: visible;
     margin-top: -3%;
 }
+
 #couple1 {
     padding: 3%;
     width: 90%;
     height: 800px;
     overflow: hidden;
 }
-.main {
+
+.bookus {
     display: flex;
     font-family: 'Poppins';
 }
-.sub {
+
+.bookustext {
     position: relative;
     border: none;
     background-color: orange;
     padding: 3% 10% 0.01% 18%;
     color: white;
 }
+
 form input {
     width: 500%;
     height: 35px;
     border: solid 1px rgb(192, 185, 185);
 }
-.sub2 {
+
+.formbox {
     position: absolute;
     border: none;
     background-color: rgb(66, 66, 143);
@@ -465,44 +533,61 @@ form input {
     width: 860px;
     height: 21.4%;
 }
-.all-moving-type {
+
+.alltype {
     display: flex;
     gap: 20px;
     margin-top: -105px;
     color: white;
 }
-#movingtype1 {
+
+#type1 {
     margin-left: 0;
 }
+
 #date {
     margin-left: 0;
 }
-.all-moving-type input,
+
+.alltype input,
 .Form1 input,
-.to input {
-    width: 200px;
-    height: 30px;
+.two-box input {
+    width: 300px;
+    height: 70px;
     padding: 5px;
 }
+#sendrequest{
+    margin-left: 0;
+    background-color: rgb(255, 186, 58);
+    font-size: 20px;
+    font-family: 'Poppins';
+
+}
+
 .Form1 {
     display: flex;
     gap: 20px;
     margin-top: 20px;
     color: white;
 }
-.to {
+
+.two-box{
     display: flex;
     gap: 20px;
     margin-top: 20px;
     align-items: center;
     color: white;
 }
-.to button {
-    padding: 10px 10px;
-    height: 43px;
-    margin-top: 3.5%;
+
+.two-box button {
+    padding: 5px 9px;
+    width: 300px;
+    height: 70px;
+    margin-top: 3.0%;
+
     background-color: orange;
 }
+
 #orangeplay {
     position: absolute;
     overflow: visible;
@@ -510,73 +595,108 @@ form input {
     top: -550px;
     cursor: pointer;
 }
-.testimonals {
+.insidecomma{
+    text-align: center;
+}
+
+.quotation {
+    
     line-height: 30px;
     display: flex;
     gap: 15%;
     margin-left: 5%;
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    i{
+        color: #588eeb;
+    }
 }
-.wholearticle {
+.iwasimpressed{
+    text-align: center;
+    font-family: "Poppins";
+    color: rgb(167, 163, 163);
+    }
+
+
+.article {
     margin-top: 5%;
     text-align: center;
 }
-.wholearticle h1{
+
+.article h1 {
     color: black;
     margin-left: -2%;
     font-family: Poppins;
     font-size: 400%;
 }
-.yellow-link {
+
+.articletext {
     color: #FFA600;
 }
+
 .new-update {
     display: flex;
     gap: 1.9%;
     margin-bottom: 4%;
 }
+
 .new-update input {
     width: 30%;
     border: none;
     background-color: rgb(252, 244, 227);
 }
-.highlighted-p{
-    margin-left: 32%;
+
+.highlighted-p {
+    margin-left: 30%;
+
     color: orange;
+    text-decoration: underline;
+
 }
-.newsletter h2{
+
+.newsletter h2 {
     margin-left: 30%;
 }
+
 .new-update button {
     height: 50px;
     width: 220px;
     background-color: rgb(255, 187, 0);
     border: none;
 }
+
 .blog {
     text-align: center;
     margin-bottom: 2%;
 }
+
 .blog p {
     color: rgb(255, 187, 0);
 }
+
 .newsletter {
-    /* display: flex; */
+
     justify-content: center;
     align-items: center;
     width: 80%;
-    /* margin: 50px auto; */
+
     text-align: center;
 }
+
 .new-update {
     display: flex;
     margin-left: 26%;
     margin-bottom: 4%;
 }
+
 .new-update input {
     width: 30%;
     border: none;
     background-color: rgb(252, 244, 227);
 }
+
 .new-update button {
     height: 50px;
     width: 280px;
@@ -584,71 +704,91 @@ form input {
     border: none;
     margin-left: 2%;
 }
+
 .news {
     display: block;
-    gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
-    text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    margin-left: 32%;
+
 }
-.all-news{
-    display: flex;
+
+
+
+.news-items{
+    display: flex;   
+    margin: 5% 10%;
+    justify-content: space-between;
+    
+}
+.font-news{
+    color: rgb(190, 182, 182);
+    font-family: 'Poppins';
+}
+.news-text{
+    text-align: left;
+    padding: 40% 1% 2%;
+    color: white;  
     margin-left: 15%;
-    gap: 5%;
+    width: 50%;
+    h6{
+        margin-top: -5%;
+        font-family: 'Poppins';
+        font-size: x-large;
+    }
 }
-.news-item {
-    position: relative;
-    background-image: url(Images/istock\ .jpg);
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
+
+#newsfirst {
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/news-02\ \(1\).jpg");
     background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+   
+  
 }
-#news1{
-    background-image: url(Images/couple\ cheering.jpg);
+
+#newssecond {
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/newsletter1.png");
+
 }
-#news2{
-    background-image: url(Images/people\ moving.jpg);
+
+#newsthird {
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/news-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-.news-item .news-text {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-.news-text p{
-    margin-top: 15%;
-}
+
+
+
 .whole {
     font-family: Arial, sans-serif;
     width: 100%;
 }
+
 .footer {
     font-family: Poppins;
     background-color: #222;
     color: #fff;
 }
+
 .footer-top {
     text-align: center;
     padding: 40px;
     background-color: #F9AA33;
     display: flex;
 }
+
 .footer-top h2 {
     margin-left: 150px;
 }
+
 .discover-btn {
     margin-top: 10px;
     height: 60px;
@@ -660,9 +800,11 @@ form input {
     font-size: 15px;
     margin-left: 300px;
 }
+
 .discover-btn:hover {
     background-color: #444;
 }
+
 .footer-bottom {
     display: flex;
     padding: 20px;
@@ -670,50 +812,62 @@ form input {
     height: 440px;
     height: 420px;
 }
+
 .contact-info,
 .footer-links {
     flex-basis: 5%;
     margin-bottom: 20px;
     margin-left: 250px;
 }
+
 .social-media {
     display: flex;
     gap: 15%;
     margin-top: 7%;
     margin-left: 6%;
 }
+
 .contact-info {
     margin: 40px;
     margin-top: 6%;
 }
+
 .footer-links ul {
     list-style-type: none;
     padding: 0;
 }
+
 .footer-links li {
     margin-bottom: 8px;
 }
+
 .footer-links a {
     color: #fff;
     text-decoration: none;
 }
+
 .footer-links a:hover {
     text-decoration: underline;
 }
+
 .social-media a {
     color: #fff;
     display: inline-flex;
     font-size: 30px;
 }
+
 #twitter {
     color: #F9AA33
 }
+
 .social-media a:hover {
     color: #F9AA33;
 }
+
 .hr {
     width: 600px
 }
+
 .copyright {
     text-align: center;
     padding: 10px;
